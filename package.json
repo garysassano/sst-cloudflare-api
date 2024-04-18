@@ -1,0 +1,18 @@
+{
+  "name": "sst-cloudflare-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sst": "3.2.61"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20241022.0"
+  }
+}

@@ -1,0 +1,148 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      sst:
+        specifier: 3.2.61
+        version: 3.2.61(hono@4.0.1)
+    devDependencies:
+      '@cloudflare/workers-types':
+        specifier: 4.20241022.0
+        version: 4.20241022.0
+
+packages:
+
+  '@cloudflare/workers-types@4.20241022.0':
+    resolution: {integrity: sha512-1zOAw5QIDKItzGatzCrEpfLOB1AuMTwVqKmbw9B9eBfCUGRFNfJYMrJxIwcse9EmKahsQt2GruqU00pY/GyXgg==}
+
+  aws4fetch@1.0.20:
+    resolution: {integrity: sha512-/djoAN709iY65ETD6LKCtyyEI04XIBP5xVvfmNxsEP0uJB5tyaGBztSryRr4HqMStr9R06PisQE7m9zDTXKu6g==}
+
+  hono@4.0.1:
+    resolution: {integrity: sha512-S9cREGPJIAK437RhroOf1PGlJPIlt5itl69OmQ6onPLo5pdCbSHGL8v4uAKxrdHjcTyuoyvKPqWm5jv0dGkdFA==}
+    engines: {node: '>=16.0.0'}
+
+  jose@4.15.9:
+    resolution: {integrity: sha512-1vUQX+IdDMVPj4k8kOxgUqlcK518yluMuGZwqlr44FS1ppZB/5GWh4rZG89erpOBOJjU/OBsnCVFfapsRz6nEA==}
+
+  jose@5.2.3:
+    resolution: {integrity: sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==}
+
+  lru-cache@6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+
+  object-hash@2.2.0:
+    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==}
+    engines: {node: '>= 6'}
+
+  oidc-token-hash@5.0.3:
+    resolution: {integrity: sha512-IF4PcGgzAr6XXSff26Sk/+P4KZFJVuHAJZj3wgO3vX2bMdNVp/QXTP3P7CEm9V1IdG8lDLY3HhiqpsE/nOwpPw==}
+    engines: {node: ^10.13.0 || >=12.0.0}
+
+  openid-client@5.6.4:
+    resolution: {integrity: sha512-T1h3B10BRPKfcObdBklX639tVz+xh34O7GjofqrqiAQdm7eHsQ00ih18x6wuJ/E6FxdtS2u3FmUGPDeEcMwzNA==}
+
+  sst-darwin-arm64@3.2.61:
+    resolution: {integrity: sha512-1CL5cpy0Lkt0p8h6zE7Ms6pTFsB6K8JF9NdalPyzZl5CvVxyl2oIRa1UCjcYPK3eRnu5KzgCTYZSlS/Y+Z0D+A==}
+    cpu: [arm64]
+    os: [darwin]
+
+  sst-darwin-x64@3.2.61:
+    resolution: {integrity: sha512-jtoY9Q457sz+S150tDO1ZByY4QtkQNY+0Q8lcX6Jb8Wk3SadG0N1ygdz5pH4pJR3Cnr2m8YZppKzOPiG2nWVHg==}
+    cpu: [x64]
+    os: [darwin]
+
+  sst-linux-arm64@3.2.61:
+    resolution: {integrity: sha512-8HNQJqnq4JfQpx2WdCygnskoAFEM7DBIutTzjd4UWCn3U5lPfRjJphoCwE9bVWR5ub9Ioog0DXnkjYBfycgvUQ==}
+    cpu: [arm64]
+    os: [linux]
+
+  sst-linux-x64@3.2.61:
+    resolution: {integrity: sha512-gMJ1r9bx0kOwF1kG8PjSkhCLeaXOSYfGkoBZ74uklZ/DgffAc/B6zL+vDDQy+SWIE2CBuH3rqiOq5AXfLxPpjQ==}
+    cpu: [x64]
+    os: [linux]
+
+  sst-linux-x86@3.2.61:
+    resolution: {integrity: sha512-crBacRd5gif/6pEI83pdmzJVKq/sCq+e9QB3khLQ2cPzyVGmvZ8UL9ed+aVsqVbBKv6qEk2AX6Qv7HVEKrN4DQ==}
+    cpu: [x86]
+    os: [linux]
+
+  sst@3.2.61:
+    resolution: {integrity: sha512-ystjIaNNqtWubGn+MOKCPWKzj7dfiDHJGpbfoVepATcGwtipN376VXqO9caGfciy7RhzFj2wPMyMCdIkGSCjMA==}
+    hasBin: true
+    peerDependencies:
+      hono: 4.x
+      valibot: 0.30.x
+    peerDependenciesMeta:
+      hono:
+        optional: true
+      valibot:
+        optional: true
+
+  yallist@4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+
+snapshots:
+
+  '@cloudflare/workers-types@4.20241022.0': {}
+
+  aws4fetch@1.0.20: {}
+
+  hono@4.0.1:
+    optional: true
+
+  jose@4.15.9: {}
+
+  jose@5.2.3: {}
+
+  lru-cache@6.0.0:
+    dependencies:
+      yallist: 4.0.0
+
+  object-hash@2.2.0: {}
+
+  oidc-token-hash@5.0.3: {}
+
+  openid-client@5.6.4:
+    dependencies:
+      jose: 4.15.9
+      lru-cache: 6.0.0
+      object-hash: 2.2.0
+      oidc-token-hash: 5.0.3
+
+  sst-darwin-arm64@3.2.61:
+    optional: true
+
+  sst-darwin-x64@3.2.61:
+    optional: true
+
+  sst-linux-arm64@3.2.61:
+    optional: true
+
+  sst-linux-x64@3.2.61:
+    optional: true
+
+  sst-linux-x86@3.2.61:
+    optional: true
+
+  sst@3.2.61(hono@4.0.1):
+    dependencies:
+      aws4fetch: 1.0.20
+      jose: 5.2.3
+      openid-client: 5.6.4
+    optionalDependencies:
+      hono: 4.0.1
+      sst-darwin-arm64: 3.2.61
+      sst-darwin-x64: 3.2.61
+      sst-linux-arm64: 3.2.61
+      sst-linux-x64: 3.2.61
+      sst-linux-x86: 3.2.61
+
+  yallist@4.0.0: {}
