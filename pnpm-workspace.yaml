@@ -1,0 +1,11 @@
+packages:
+  - "."
+
+minimumReleaseAgeExclude:
+  - '@cloudflare/workers-types@5.20260823.1'
+
+minimumReleaseAge: 4320
+minimumReleaseAgeStrict: true
+
+# mise owns the package-manager binary.
+pmOnFail: ignore
